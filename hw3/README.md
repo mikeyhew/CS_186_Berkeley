@@ -109,16 +109,15 @@ You would edit this with your answer, keeping the schema the same:
 
 Create views in the following queries:
 
-1.
-  a. In the `committee_contributions` table, find all the entries with a value for
+1.  a. In the `committee_contributions` table, find all the entries with a value for
   the `transaction_amt` attribute that is greater than $5,000, and return the
   `cmte_id` and transaction amount.
 
-  b. Following from the previous part, now also include the contributor name in your output.
+    b. Following from the previous part, now also include the contributor name in your output.
 
-  c. Following from the previous part, group together transactions with the same committee id and contributor and report the average transaction amount.
+    c. Following from the previous part, group together transactions with the same committee id and contributor and report the average transaction amount.
 
-  d. Following from the previous part, only include groups with an average transaction amount > $10,000.
+    d. Following from the previous part, only include groups with an average transaction amount > $10,000.
 
 2. Find the names of the top 10 (directed) committee pairs that are affiliated with the Democratic Party, who have the highest number of intercommittee transactions. By directed, we mean (C1 donates to C2) is not the same (C2 donates to C1).
 
